@@ -48,5 +48,5 @@ docker pull --platform=linux/amd64 nextgenusfs/funannotate
 ```{bash, eval=FALSE}
 conda create -n sequali_env
 pythone=3.10 -c conda-forge
-c0nda activate sequali_env
+conda activate sequali_env
 conda install -c conda-forge -c bioconda sequali
